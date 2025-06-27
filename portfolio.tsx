@@ -47,7 +47,8 @@ export default function Portfolio() {
     {
       name: "Academix",
       description:
-        "Developed a modern educational platform with real-time video classes using WebRTC. Built an admin panel to create and manage courses; users access enrolled courses via a personalized dashboard. Implemented a responsive UI using Tailwind CSS and connected frontend to backend via REST APIs. Deployed frontend on Vercel and backend on Render for seamless access and scalability.",
+        "Built a educational platform with real-time video classes (WebRTC)and with features like course creation,course management, and course enrollment"
+        ,
       tech: ["React", "Express.js", "Node.js", "WebRTC", "WebSockets", "Tailwind CSS"],
       year: "2025",
       liveDemo: "https://academix-oz6b.vercel.app/",
@@ -56,7 +57,7 @@ export default function Portfolio() {
     {
       name: "TMovies",
       description:
-        "A movie and TV series app built with React, TypeScript, and Tailwind CSS. Features: search for movies/TV series, watch trailers, view detailed information.",
+        "A movie and TV series app with search, trailers, and detailed info.",
       tech: ["React", "TypeScript", "Tailwind CSS"],
       year: "2025",
       liveDemo: "https://tmovies-zeta.vercel.app/",
@@ -165,13 +166,13 @@ export default function Portfolio() {
               >
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <div className="flex items-start justify-between mb-2">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2 gap-1">
                       <h3
                         className={`text-xl font-semibold transition-colors ${isDark ? "text-white" : "text-gray-900"}`}
                       >
                         {exp.role}
                       </h3>
-                      <span className={`text-sm ${isDark ? "text-gray-500" : "text-gray-500"}`}>{exp.duration}</span>
+                      <span className={`text-sm ${isDark ? "text-gray-500" : "text-gray-500"} sm:ml-4 ml-0 whitespace-nowrap flex-shrink-0 self-start sm:self-center`}>{exp.duration}</span>
                     </div>
                     <p className={`text-lg font-medium mb-2 ${isDark ? "text-purple-300" : "text-purple-600"}`}>
                       <span className={isDark ? "text-purple-300" : "text-gray-900"}>
