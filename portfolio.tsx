@@ -12,7 +12,7 @@ export default function Portfolio() {
     // Languages
     "JavaScript", "TypeScript", "Java", "Python", "SQL",
     // Frontend
-    "React.js", "Tailwind CSS", 
+    "React.js", "Tailwind CSS", "Next.js",
     // Backend
     "Node.js", "Express", "Spring Boot",
     // Database
@@ -38,7 +38,7 @@ export default function Portfolio() {
           </ul>
         </>
       ),
-      tech: ["React.js", "Spring Boot", "MongoDB", "AWS", "Docker", "Git"],
+      tech: ["React.js", "Spring Boot","java", "MongoDB", "AWS", "Docker", "Git"],
       liveDemo: "https://bgmsons.com/",
     },
   ]
@@ -62,6 +62,15 @@ export default function Portfolio() {
       year: "2025",
       liveDemo: "https://tmovies-zeta.vercel.app/",
       github: "https://github.com/abhinavpathak343/tmovies",
+    },
+    {
+      name: "QRShortner",
+      description:
+        "A modern, full-stack URL shortener and QR code generator . Easily convert long URLs into short links and generate QR codes.",
+      tech: ["React", "Node.js", "Express", "Tailwind CSS", "TypeScript", "MongoDB", "QRCode Library"],
+      year: "2025",
+      liveDemo: "https://qrshortner.vercel.app/",
+      github: "https://github.com/abhinavpathak343/qrshortner",
     },
   ]
 
