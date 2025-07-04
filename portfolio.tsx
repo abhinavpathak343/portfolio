@@ -26,6 +26,22 @@ export default function Portfolio() {
 
   const experience = [
     {
+      role: "Freelance Laravel Developer",
+      company: "Custom POS Software – RetailMate",
+      location: "Remote",
+      duration: "Feb, 2025 – Apr, 2025",
+      description: (
+        <>
+          <ul className="list-disc pl-5 space-y-1 mb-2">
+            <li>Developed a custom POS system for a retail chain with product management, billing, and inventory tracking.</li>
+            <li>Added barcode scanning, receipt printing, role-based access (Admin, Cashier), and sales reports.</li>
+            <li>Deployed on VPS with daily MySQL backups and secure authentication via Laravel Sanctum.</li>
+          </ul>
+        </>
+      ),
+      tech: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Livewire", "AJAX", "Git"],
+    },
+    {
       role: "Freelance Full Stack Developer",
       company: "BGM Sons – Product Listing Platform",
       location: "Delhi, India",
