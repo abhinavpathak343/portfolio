@@ -10,13 +10,13 @@ export default function Portfolio() {
 
   const skills = [
     // Languages
-    "JavaScript", "TypeScript", "Java", "Python", "SQL",
+    "JavaScript", "TypeScript", "Java", "Python", "SQL","PHP",
     // Frontend
-    "React.js", "Tailwind CSS", "Next.js",
+    "React.js", "Tailwind CSS", "Next.js","Vue.js",
     // Backend
     "Node.js", "Express", "Spring Boot",
     // Database
-    "MongoDB", "PostgreSQL",
+   "mysql", "MongoDB", "PostgreSQL",
   
     // Cloud/DevOps
     "AWS",
@@ -44,8 +44,8 @@ export default function Portfolio() {
     {
       role: "Freelance Full Stack Developer",
       company: "BGM Sons – Product Listing Platform",
-      location: "Delhi, India",
-      duration: "2024 – Present",
+      location: "remote, India",
+      duration: "Dec,2024 –Jan,2025",
       description: (
         <>
           <ul className="list-disc pl-5 space-y-1 mb-2">
