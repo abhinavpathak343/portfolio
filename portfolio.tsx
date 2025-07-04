@@ -323,7 +323,7 @@ export default function Portfolio() {
                 ? "border-purple-700 text-white bg-purple-700 hover:bg-purple-700 hover:text-white hover:border-purple-700"
                 : "border-gray-300 text-gray-900 bg-white hover:bg-gray-100 hover:text-gray-900 hover:border-gray-400"
             }`}
-            onClick={() => window.open("https://drive.google.com/file/d/1BfPmgDYAbSYms9dNTFrdSNji8AjPNozX/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1_KY2J7xETQ-CeabuMhOgg8Zggbsy_Dm2/view?usp=sharing", "_blank")}
           >
             📄 View Resume
           </Button>
