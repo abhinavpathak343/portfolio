@@ -26,6 +26,26 @@ export default function Portfolio() {
 
   const experience = [
     {
+      role: "Full Stack Development Intern",
+      company: "Karyo AI",
+      location: "Remote",
+      duration: "July, 2025 – Present",
+      description: (
+        <>
+          <ul className="list-disc pl-5 space-y-1 mb-2">
+  <li>Developing the KaryoAI website from scratch, an AI agent platform for businesses.</li>
+  <li>Implementing CI/CD pipelines and containerized deployments for efficient DevOps workflows.</li>
+  <li>Integrated multiple LLM APIs including OpenAI, Gemini (Google), Claude (Anthropic), and Grok (xAI) to power intelligent agent responses.</li>
+</ul>
+
+        </>
+      ),
+      tech: [
+        "React", "TypeScript", "Node.js", "Express.js", "MySQL", "Prisma", "DevOps", "CI/CD", "Git", "Docker"
+      ],
+      liveDemo: "https://www.karyoai.com/",
+    },
+    {
       role: "Freelance Laravel Developer",
       company: "Custom POS Software – RetailMate",
       location: "Remote",
@@ -329,7 +349,6 @@ export default function Portfolio() {
             ))}
           </div>
         </section>
-
         {/* Resume */}
         <section className="mb-12 text-center">
           <Button
@@ -373,20 +392,6 @@ export default function Portfolio() {
           >
             <a href="https://github.com/AbhinavPathak343" target="_blank" rel="noopener noreferrer">
               <Github className="w-5 h-5" />
-            </a>
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            className={`w-12 h-12 rounded-full ${
-              isDark
-                ? "text-gray-400 hover:text-white hover:bg-gray-800"
-                : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-            }`}
-            asChild
-          >
-            <a href="https://www.linkedin.com/in/abhinav-pathak-71384b232/" target="_blank" rel="noopener noreferrer">
-              <Linkedin className="w-5 h-5" />
             </a>
           </Button>
           <Button
